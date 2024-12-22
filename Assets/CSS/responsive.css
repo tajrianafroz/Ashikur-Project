@@ -1,0 +1,2160 @@
+/* =================== OFF-CANVAS START =================== */
+@media (max-width: 575.98px) {
+  .offcanvas.offcanvas-start {
+    width: 80%;
+  }
+  .offcanvas-body li a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 400.98px) {
+  .offcanvas-body li a {
+    font-size: 16px;
+    padding: 14px 10px;
+  }
+}
+/* =================== OFF-CANVAS END =================== */
+
+/* =================== HOME START =================== */
+
+/* =================== ABOUT ME START =================== */
+@media (max-width: 1199.98px) {
+  #aboutMe .contents h3 {
+    font-size: 40px;
+  }
+  #aboutMe .contents p {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+  }
+  #aboutMe .contents a {
+    padding: 15px 36px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 991.98px) {
+  #aboutMe {
+    padding-top: 43px;
+  }
+  #aboutMe .container .aboutEllipse {
+    top: -43px;
+    right: 3%;
+  }
+  #aboutMe .row img {
+    margin-left: auto;
+  }
+  #aboutMe .contents h3 {
+    font-size: 36px;
+  }
+  #aboutMe .contents p {
+    font-size: 16px;
+    padding-top: 16px;
+    padding-bottom: 36px;
+  }
+  #aboutMe .contents a {
+    padding: 11px 28px;
+    font-size: 14px;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 575.98px) {
+  #aboutMe .contents h3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 479.98px) {
+  #aboutMe .contents h3 {
+    font-size: 24px;
+  }
+  #aboutMe .contents p {
+    font-size: 14px;
+  }
+}
+/* =================== ABOUT ME END =================== */
+
+/* =================== BOX START =================== */
+@media (max-width: 991.98px) {
+  #box .boxFeatures {
+    display: flex;
+    flex-direction: row;
+    padding: 26px 30px 39px 26px;
+    border-radius: 12px;
+  }
+  #box .boxContents {
+    padding-left: 30px;
+  }
+  #box .middleBox {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  #box .boxImage img {
+    display: block;
+    width: 49px;
+    height: 51px;
+    object-fit: cover;
+    margin: auto;
+  }
+  #box .boxContents h4 {
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 3px;
+    text-align: left;
+  }
+  #box .boxContents p {
+    font-size: 14px;
+    text-align: left;
+  }
+}
+@media (max-width: 767.98px) {
+  #box .boxContents h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 575.98px) {
+  #box .boxFeatures {
+    display: flex;
+    flex-direction: row;
+    padding: 26px 30px 39px 26px;
+    border-radius: 12px;
+  }
+  #box .boxContents {
+    padding-left: 20px;
+  }
+  #box .boxImage img {
+    width: 47px;
+    height: 49px;
+  }
+  #box .boxContents h4 {
+    font-size: 16px;
+  }
+  #box .boxContents p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 479.98px) {
+  #box .boxImage img {
+    display: block;
+    width: 43px;
+    height: 45px;
+    object-fit: cover;
+    margin: auto;
+  }
+  #box .boxContents h4 {
+    font-size: 14px;
+    padding-top: 0;
+    padding-bottom: 3px;
+    text-align: left;
+  }
+  #box .boxContents p {
+    font-size: 12px;
+    text-align: left;
+  }
+}
+/* =================== BOX END =================== */
+
+/* =================== BRANDING START =================== */
+@media (max-width: 1399.98px) {
+  #branding .contents img {
+    bottom: -6px;
+    right: 45%;
+  }
+}
+@media (max-width: 1199.98px) {
+  #branding .contents img {
+    bottom: -6px;
+    right: 37%;
+  }
+  #branding h3 {
+    font-size: 42px;
+  }
+}
+@media (max-width: 991.98px) {
+  #branding .container {
+    padding-top: 27px;
+  }
+  #branding .container .brandingEllipse {
+    right: 50px;
+    top: -20px;
+  }
+  #branding .contents {
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+  #branding h3 {
+    font-size: 38px;
+  }
+  #branding p {
+    font-size: 16px;
+    padding-top: 17px;
+    padding-bottom: 23px;
+  }
+  #branding .btn_project {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 180%;
+    color: #353535;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 767.98px) {
+  #branding h3 {
+    font-size: 32px;
+  }
+  #branding .btn_project {
+    font-size: 14px;
+  }
+}
+@media (max-width: 575.98px) {
+  #branding h3 {
+    font-size: 28px;
+  }
+  #branding p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 479.98px) {
+  #branding .container .brandingEllipse {
+    right: 30px;
+    top: -20px;
+  }
+  #branding h3 {
+    font-size: 24px;
+  }
+  #branding p {
+    font-size: 14px;
+  }
+}
+/* =================== BRANDING END =================== */
+
+/* =================== HELP START =================== */
+@media (max-width: 1199.98px) {
+  #help .icon_contents {
+    padding-left: 28px;
+  }
+  #help .contents h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 991.98px) {
+  #help {
+    padding: 75px 16px 64px 16px;
+  }
+  #help .icons span {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+  }
+  #help .icon_contents {
+    padding-left: 0;
+  }
+  #help .contents {
+    text-align: left;
+  }
+  #help .icons h3 {
+    font-size: 16px;
+    padding-bottom: 3px;
+  }
+  #help .contents h2 {
+    font-size: 40px;
+  }
+  #help .contents p {
+    font-size: 18px;
+    line-height: 180%;
+    padding: 29px 0 24px 0;
+  }
+  #help .amountGrp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    text-align: left;
+    margin-bottom: 38px;
+  }
+  #help .amountGrp .amounts {
+    margin-right: 26px;
+    margin-left: 0;
+  }
+  #help .amountGrp .amounts span {
+    font-size: 30px;
+  }
+  #help .amountGrp .amounts p {
+    font-size: 12px;
+    padding-top: 9px;
+  }
+}
+@media (max-width: 767.98px) {
+  #help .icons span {
+    width: 53px;
+    height: 53px;
+    line-height: 53px;
+  }
+  #help .contents h2 {
+    font-size: 30px;
+  }
+  #help .contents p {
+    font-size: 16px;
+  }
+  #help .amountGrp .amounts span {
+    font-size: 28px;
+  }
+}
+@media (max-width: 575.98px) {
+  #help .contents h2 {
+    font-size: 27px;
+  }
+  #help .amountGrp .amounts span {
+    font-size: 26px;
+  }
+}
+@media (max-width: 479.98px) {
+  #help .icons span {
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+  }
+  #help .icon_contents {
+    padding-left: 5px;
+  }
+  #help .icons h3 {
+    font-size: 15px;
+  }
+  #help .contents h2 {
+    font-size: 24px;
+  }
+  #help .contents p {
+    font-size: 15px;
+  }
+  #help .amountGrp .amounts span {
+    font-size: 24px;
+  }
+  #help .amountGrp .amounts p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 399.98px) {
+  #help .icon_contents {
+    padding-left: 16px;
+  }
+}
+/* =================== HELP END =================== */
+
+/* =================== EXPERIENCE START =================== */
+@media (max-width: 1199.98px) {
+  #experience h2 {
+    font-size: 48px;
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 991.98px) {
+  #experience {
+    background: #fbfbfb;
+  }
+  #experience h2 {
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+  #experience .experiencePoints h4 {
+    font-size: 22px;
+    padding-bottom: 6px;
+  }
+  #experience .experiencePoints .points p {
+    font-size: 16px;
+  }
+  #experience .experiencePoints .pointDetails p {
+    font-size: 16px;
+  }
+  #experience .points {
+    border-right: none;
+    padding-bottom: 20px;
+  }
+  #experience .points::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border: none;
+  }
+  #experience .points::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border: none;
+  }
+  #experience .experiencePoints {
+    border-left: 1.7px dashed #7a7a7a;
+    padding-bottom: 40px;
+    padding-left: 35px;
+    margin-left: 20px;
+    position: relative;
+  }
+  #experience .experiencePoints:last-child {
+    padding-bottom: 0;
+  }
+  #experience .experiencePoints::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1.7px dashed #7a7a7a;
+  }
+  #experience .experiencePoints::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: -10px;
+    width: 19px;
+    height: 19px;
+    background-color: #52ab70;
+    border-radius: 50%;
+    border: none;
+  }
+  #experience .experiencePoints.red::after {
+    background-color: #f17676;
+  }
+  #experience .experiencePoints.yellow::after {
+    background-color: #ffd233;
+  }
+}
+@media (max-width: 767.98px) {
+  #experience h2 {
+    font-size: 34px;
+  }
+  #experience .experiencePoints h4 {
+    font-size: 20px;
+  }
+  #experience .experiencePoints .points p {
+    font-size: 14px;
+  }
+  #experience .experiencePoints .pointDetails p {
+    font-size: 14px;
+  }
+  #experience .experiencePoints::before {
+    top: 0;
+    left: -18px;
+    width: 32px;
+    height: 32px;
+  }
+  #experience .experiencePoints::after {
+    top: 8px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+  }
+}
+@media (max-width: 575.98px) {
+  #experience h2 {
+    font-size: 28px;
+  }
+  #experience .experiencePoints h4 {
+    font-size: 18px;
+  }
+  #experience .experiencePoints {
+    padding-left: 30px;
+  }
+  #experience .experiencePoints::before {
+    top: 0;
+    left: -15px;
+    width: 28px;
+    height: 28px;
+  }
+  #experience .experiencePoints::after {
+    top: 7px;
+    left: -8px;
+    width: 14px;
+    height: 14px;
+  }
+}
+@media (max-width: 400.98px) {
+  #experience h2 {
+    font-size: 24px;
+  }
+  #experience .experiencePoints h4 {
+    font-size: 15px;
+  }
+  #experience .experiencePoints .points p {
+    font-size: 12px;
+  }
+  #experience .experiencePoints .pointDetails p {
+    font-size: 12px;
+  }
+  #experience .experiencePoints::before {
+    top: 0;
+    left: -14px;
+    width: 24px;
+    height: 24px;
+  }
+  #experience .experiencePoints::after {
+    top: 7px;
+    left: -7px;
+    width: 11px;
+    height: 11px;
+  }
+}
+/* =================== EXPERIENCE END =================== */
+
+/* =================== EXPERT AREAS START =================== */
+@media (max-width: 1199.98px) {
+  #expertAreas h3 {
+    font-size: 48px;
+    padding-bottom: 49px;
+  }
+}
+@media (max-width: 991.98px) {
+  #expertAreas {
+    padding: 38px 16px 99px 16px;
+  }
+  #expertAreas h3 {
+    font-size: 40px;
+    padding-bottom: 26px;
+  }
+  #expertAreas p {
+    font-size: 18px;
+  }
+  #expertAreas .secondPara {
+    padding-top: 17px;
+  }
+  #expertAreas .cv_btn {
+    padding: 10px 18px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 58px;
+  }
+  #expertAreas .cloudArrow {
+    margin-left: 9px;
+  }
+  #expertAreas .nav-item {
+    margin-right: 9px;
+    margin-bottom: 53px;
+  }
+  #expertAreas .nav-link {
+    padding: 14px 36px;
+    border-radius: 18px;
+  }
+  #expertAreas .progressPortion {
+    margin-bottom: 50px;
+  }
+  #expertAreas .progressPortion .lable {
+    font-size: 16px;
+  }
+  #expertAreas .progressBar {
+    width: 360px;
+    height: 5px;
+  }
+  #expertAreas .progressLine {
+    height: 5px;
+  }
+  #expertAreas .progressLine span {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767.98px) {
+  #expertAreas h3 {
+    font-size: 34px;
+  }
+  #expertAreas p {
+    font-size: 16px;
+  }
+  #expertAreas .cv_btn {
+    font-size: 14px;
+    padding: 9px 16px;
+    border-radius: 9px;
+    margin-top: 26px;
+    margin-bottom: 48px;
+  }
+  #expertAreas .cloudArrow {
+    margin-left: 8px;
+  }
+  #expertAreas .nav-item {
+    margin-right: 7px;
+    margin-bottom: 48px;
+  }
+  #expertAreas .nav-link {
+    font-size: 16px;
+    padding: 13px 40px;
+    border-radius: 16px;
+  }
+  #expertAreas .progressPortion {
+    margin-bottom: 56px;
+  }
+  #expertAreas .progressPortion .lable {
+    font-size: 15px;
+  }
+  #expertAreas .progressBar {
+    width: 350px;
+    height: 4px;
+  }
+  #expertAreas .progressLine {
+    height: 4px;
+  }
+  #expertAreas .progressLine span {
+    font-size: 15px;
+  }
+}
+@media (max-width: 575.98px) {
+  #expertAreas h3 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 400.98px) {
+  #expertAreas h3 {
+    font-size: 24px;
+  }
+  #expertAreas p {
+    font-size: 15px;
+  }
+  #expertAreas .cv_btn {
+    font-size: 13px;
+    padding: 7px 12px;
+    border-radius: 7px;
+    margin-top: 24px;
+  }
+  #expertAreas .cloudArrow {
+    margin-left: 5px;
+  }
+  #expertAreas .nav-item {
+    margin-right: 0;
+  }
+  #expertAreas .nav-link {
+    padding: 12px 30px;
+    border-radius: 15px;
+  }
+  #expertAreas .progressPortion .lable {
+    font-size: 14px;
+  }
+  #expertAreas .progressBar {
+    width: 330px;
+  }
+  #expertAreas .progressLine span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 370.98px) {
+  #expertAreas .nav-link {
+    padding: 10px 23px;
+    border-radius: 13px;
+  }
+  #expertAreas .progressBar {
+    width: 290px;
+  }
+}
+@media (max-width: 340.98px) {
+  #expertAreas .progressBar {
+    width: 265px;
+  }
+}
+/* =================== EXPERT AREAS END =================== */
+
+/* =================== MY SERVICES START =================== */
+@media (max-width: 1199.98px) {
+  #services h2 {
+    font-size: 48px;
+  }
+  #services p {
+    width: 63%;
+  }
+  #services .serviceBox {
+    padding: 32px 33px 79px 33px;
+  }
+}
+@media (max-width: 991.98px) {
+  #services {
+    background-color: #fff7d5;
+    padding-top: 34px;
+    padding-bottom: 40px;
+  }
+  #services h2 {
+    font-size: 40px;
+    text-align: left;
+  }
+  #services p {
+    font-size: 16px;
+    padding: 10px 0 45px 0;
+    width: 76%;
+    text-align: left;
+    margin: 0;
+  }
+  #services .serviceBox {
+    padding: 26px 24px 23px 22px;
+    display: flex;
+    flex-direction: row;
+  }
+  #services .secondBox {
+    margin: 15px 0;
+  }
+  #services .serviceBox img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+  #services .serviceBox .serviceContents {
+    padding-left: 23px;
+  }
+  #services .serviceBox h3 {
+    font-size: 20px;
+    padding: 0 0 9px 0;
+    text-align: left;
+  }
+  #services .serviceBox:hover h3 {
+    font-size: 22px;
+  }
+  #services .serviceBox h4 {
+    font-size: 14px;
+    text-align: left;
+  }
+  #services .serviceBox:hover h4 {
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+@media (max-width: 767.98px) {
+  #services h2 {
+    font-size: 34px;
+  }
+  #services p {
+    font-size: 15px;
+  }
+  #services .serviceBox img {
+    width: 66px;
+    height: 66px;
+  }
+  #services .serviceBox .serviceContents {
+    padding-left: 20px;
+  }
+  #services .serviceBox h3 {
+    font-size: 18px;
+  }
+  #services .serviceBox:hover h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  #services h2 {
+    font-size: 28px;
+  }
+  #services p {
+    font-size: 14px;
+  }
+  #services .serviceBox img {
+    width: 60px;
+    height: 60px;
+  }
+  #services .serviceBox h3 {
+    font-size: 16px;
+  }
+  #services .serviceBox:hover h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 479.98px) {
+  #services h2 {
+    font-size: 24px;
+  }
+  #services p {
+    font-size: 13px;
+  }
+  #services .serviceBox img {
+    width: 54px;
+    height: 54px;
+  }
+  #services .serviceBox h3 {
+    font-size: 15px;
+  }
+  #services .serviceBox:hover h3 {
+    font-size: 16px;
+  }
+  #services .serviceBox h4 {
+    font-size: 13px;
+  }
+  #services .serviceBox:hover h4 {
+    font-size: 14px;
+  }
+}
+/* =================== MY SERVICES END =================== */
+
+/* =================== VALUABLE FEEDBACK START =================== */
+@media (max-width: 1399.98px) {
+  #feedback .heading {
+    width: 70%;
+  }
+}
+@media (max-width: 1199.98px) {
+  #feedback .heading {
+    width: 80%;
+  }
+  #feedback .heading h3 {
+    font-size: 48px;
+  }
+  #feedback .row {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 991.98px) {
+  #feedback {
+    padding: 41px 16px 45px 16px;
+    margin-top: 10px;
+  }
+  #feedback .heading {
+    width: 100%;
+  }
+  #feedback .heading h3 {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  #feedback .heading p {
+    font-size: 18px;
+    line-height: 180%;
+    padding-bottom: 39px;
+  }
+  #feedback .contents p {
+    font-size: 18px;
+    line-height: 180%;
+    padding-top: 30px;
+    padding-bottom: 13px;
+  }
+  #feedback .contents h4 {
+    font-size: 22px;
+  }
+  #feedback .contents h4::before {
+    bottom: 14px;
+    height: 2px;
+  }
+  #feedback .contents span {
+    font-size: 15px;
+  }
+}
+@media (max-width: 767.98px) {
+  #feedback .heading h3 {
+    font-size: 36px;
+  }
+  #feedback .heading p {
+    font-size: 16px;
+  }
+  #feedback .contents p {
+    font-size: 16px;
+  }
+  #feedback .contents h4 {
+    font-size: 20px;
+  }
+  #feedback .contents span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 575.98px) {
+  #feedback .heading h3 {
+    font-size: 30px;
+  }
+  #feedback .heading p {
+    font-size: 14px;
+  }
+  #feedback .contents p {
+    font-size: 16px;
+  }
+  #feedback .contents h4 {
+    font-size: 18px;
+  }
+  #feedback .contents h4::before {
+    bottom: 14px;
+    height: 2px;
+  }
+  #feedback .contents span {
+    font-size: 13px;
+  }
+}
+@media (max-width: 400.98px) {
+  #feedback .heading h3 {
+    font-size: 24px;
+  }
+  #feedback .heading p {
+    font-size: 13px;
+  }
+  #feedback .contents p {
+    font-size: 15px;
+  }
+  #feedback .contents h4 {
+    font-size: 15px;
+  }
+  #feedback .contents h4::before {
+    bottom: 10px;
+    height: 1px;
+  }
+  #feedback .contents span {
+    font-size: 12px;
+  }
+}
+/* =================== EXPERT AREAS END =================== */
+
+/* =================== MY BLOG POST START =================== */
+@media (max-width: 1199.98px) {
+  #blogPost h2 {
+    font-size: 48px;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 991.98px) {
+  #blogPost {
+    padding-top: 47px;
+  }
+  #blogPost h2 {
+    font-size: 40px;
+    text-align: left;
+    padding-bottom: 42px;
+  }
+  #blogPost .blog {
+    margin-bottom: 27px;
+  }
+  #blogPost .blogContents {
+    padding-left: 17px;
+  }
+  #blogPost .blogContents .footerGrp span {
+    font-size: 13px;
+  }
+  #blogPost .blogContents .footerGrp .date {
+    margin-left: 7px;
+    margin-right: 16px;
+  }
+  #blogPost .blogContents h4 {
+    font-size: 16px;
+    padding: 6px 0 20px 0;
+  }
+  #blogPost .blogContents a {
+    font-size: 16px;
+  }
+  #blogPost .blogContents .icon {
+    margin-left: 7px;
+  }
+}
+@media (max-width: 767.98px) {
+  #blogPost h2 {
+    font-size: 34px;
+  }
+  #blogPost .blogContents .footerGrp span {
+    font-size: 12px;
+  }
+  #blogPost .blogContents h4 {
+    font-size: 15px;
+  }
+  #blogPost .blogContents a {
+    font-size: 14px;
+  }
+  #blogPost .blogContents .icon {
+    margin-left: 6px;
+  }
+}
+@media (max-width: 575.98px) {
+  #blogPost h2 {
+    font-size: 28px;
+  }
+  #blogPost .blogContents .footerGrp span {
+    font-size: 11px;
+  }
+  #blogPost .blogContents h4 {
+    font-size: 14px;
+  }
+  #blogPost .blogContents a {
+    font-size: 13px;
+  }
+  #blogPost .blogContents .icon {
+    margin-left: 5px;
+  }
+}
+@media (max-width: 400.98px) {
+  #blogPost h2 {
+    font-size: 24px;
+  }
+  #blogPost .blogContents .footerGrp span {
+    font-size: 10px;
+  }
+  #blogPost .blogContents h4 {
+    font-size: 13px;
+  }
+  #blogPost .blogContents a {
+    font-size: 12px;
+  }
+  #blogPost .blogContents .icon {
+    margin-left: 4px;
+  }
+}
+/* =================== MY BLOG POST END =================== */
+
+/* =================== NEWSLETTER START =================== */
+@media (max-width: 1199.98px) {
+  #newsLetter h4 {
+    font-size: 18px;
+    line-height: 170%;
+  }
+  #newsLetter h3 {
+    font-size: 34px;
+    line-height: 170%;
+  }
+  #newsLetter p {
+    font-size: 16px;
+    line-height: 170%;
+  }
+  #newsLetter .inputGrp input {
+    font-size: 16px;
+    line-height: 180%;
+    padding: 20px 30px;
+    border-radius: 14px 0 0 14px;
+  }
+  #newsLetter .inputGrp input::placeholder {
+    font-size: 16px;
+    line-height: 180%;
+  }
+  #newsLetter .inputGrp button {
+    line-height: 180%;
+    padding: 20px;
+    border-radius: 0 14px 14px 0;
+  }
+}
+@media (max-width: 991.98px) {
+  #newsLetter {
+    padding-top: 62px;
+  }
+  #newsLetter .container {
+    border-radius: 19px;
+    padding: 32px 20px 42px 40px;
+  }
+  #newsLetter h4 {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  #newsLetter h3 {
+    font-size: 30px;
+  }
+  #newsLetter p {
+    padding-bottom: 40px;
+  }
+  #newsLetter .inputGrp input {
+    padding: 15px 24px;
+    border-radius: 10px 0 0 10px;
+  }
+  #newsLetter .inputGrp button {
+    padding: 15px 12px;
+    border-radius: 0 10px 10px 0;
+  }
+}
+@media (max-width: 767.98px) {
+  #newsLetter h4 {
+    font-size: 16px;
+  }
+  #newsLetter h3 {
+    font-size: 26px;
+  }
+  #newsLetter p {
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+  #newsLetter .inputGrp input {
+    font-size: 14px;
+    padding: 13px 20px;
+  }
+  #newsLetter .inputGrp input::placeholder {
+    font-size: 14px;
+  }
+  #newsLetter .inputGrp button {
+    font-size: 14px;
+    padding: 13px 10px;
+  }
+}
+@media (max-width: 575.98px) {
+  #newsLetter h4 {
+    font-size: 14px;
+  }
+  #newsLetter h3 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 479.98px) {
+  #newsLetter h4 {
+    font-size: 12px;
+  }
+  #newsLetter h3 {
+    font-size: 20px;
+  }
+  #newsLetter .inputGrp input {
+    font-size: 12px;
+    padding: 11px 20px;
+  }
+  #newsLetter .inputGrp input::placeholder {
+    font-size: 12px;
+  }
+  #newsLetter .inputGrp button {
+    font-size: 12px;
+    padding: 11px 7px;
+  }
+}
+/* =================== NEWSLETTER END =================== */
+
+/* =================== HOME END =================== */
+
+/* =================== ABOUT START =================== */
+
+/* =================== ABOUT BANNER START =================== */
+@media (max-width: 1199.98px) {
+  #aboutBanner h2 {
+    font-size: 42px;
+  }
+  #aboutBanner p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991.98px) {
+  #aboutBanner {
+    background-image: url("../../Assets/Images/AboutBg_small.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-top: 0;
+  }
+  #aboutBanner .container {
+    background-image: none;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+  #aboutBanner h2 {
+    font-size: 38px;
+  }
+  #aboutBanner p {
+    font-size: 14px;
+    line-height: 190%;
+  }
+}
+@media (max-width: 767.98px) {
+  #aboutBanner h2 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 575.98px) {
+  #aboutBanner h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479.98px) {
+  #aboutBanner h2 {
+    font-size: 28px;
+  }
+  #aboutBanner p {
+    font-size: 12px;
+  }
+}
+/* =================== ABOUT BANNER END =================== */
+
+/* =================== BIO-DATA START =================== */
+@media (max-width: 1199.98px) {
+  #bioData .contents p {
+    padding-bottom: 30px;
+    font-size: 18px;
+  }
+  #bioData .contents .row {
+    padding-bottom: 8px;
+  }
+  #bioData .contents .cv_btn {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 991.98px) {
+  #bioData {
+    padding: 30px 17px 39px 17px;
+  }
+  #bioData .container {
+    padding-bottom: 41px;
+  }
+  #bioData .profilePicture p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    color: #7a7a7a;
+    padding-bottom: 32px;
+  }
+  #bioData .profilePicture img {
+    margin: auto;
+    padding-bottom: 36px;
+  }
+  #bioData .contents .row p {
+    font-size: 18px;
+    padding-bottom: 9px;
+  }
+  #bioData .contents .cv_btn {
+    padding: 9px 18px;
+    margin-top: 27px;
+    font-size: 16px;
+  }
+  #bioData .contents .cloudArrow {
+    margin-left: 9px;
+  }
+}
+@media (max-width: 767.98px) {
+  #bioData .profilePicture p {
+    font-size: 16px;
+  }
+  #bioData .contents .row p {
+    font-size: 16px;
+  }
+  #bioData .contents .cv_btn {
+    padding: 9px 17px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 479.98px) {
+  #bioData .profilePicture p {
+    font-size: 14px;
+  }
+  #bioData .contents .row p {
+    font-size: 14px;
+    padding-bottom: 4px;
+  }
+  #bioData .contents .cv_btn {
+    padding: 8px 15px;
+    margin-top: 17px;
+    font-size: 14px;
+  }
+}
+/* =================== BIO-DATA END =================== */
+
+/* =================== EXPERIENCE AND EDUCATION START =================== */
+@media (max-width: 991.98px) {
+  #experienceEducation .experience {
+    margin-bottom: 58px;
+  }
+  #experienceEducation h3 {
+    font-size: 32px;
+    padding-bottom: 40px;
+  }
+  #experienceEducation .allPoints {
+    padding: 0 25px 35px 34px;
+    border-left: 1.7px dashed #7a7a7a;
+    margin-left: 16px;
+  }
+  #experienceEducation .allPoints::before {
+    width: 30px;
+    height: 30px;
+    border: 1.7px dashed #7a7a7a;
+    top: -1px;
+    left: -16px;
+  }
+  #experienceEducation .allPoints::after {
+    width: 15px;
+    height: 15px;
+    top: 6px;
+    left: -8px;
+  }
+  #experienceEducation .allPoints .dateGrp span {
+    font-size: 14px;
+    padding-right: 10px;
+  }
+  #experienceEducation .allPoints h4 {
+    font-size: 18px;
+    padding: 5px 0 8px 0;
+  }
+  #experienceEducation .allPoints p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767.98px) {
+  #experienceEducation h3 {
+    font-size: 28px;
+  }
+  #experienceEducation .allPoints::before {
+    width: 28px;
+    height: 28px;
+    top: -2px;
+    left: -15px;
+  }
+  #experienceEducation .allPoints::after {
+    width: 14px;
+    height: 14px;
+    top: 5px;
+    left: -8px;
+  }
+  #experienceEducation .allPoints .dateGrp span {
+    font-size: 12px;
+    padding-right: 9px;
+  }
+  #experienceEducation .allPoints h4 {
+    font-size: 17px;
+  }
+  #experienceEducation .allPoints p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 575.98px) {
+  #experienceEducation h3 {
+    font-size: 26px;
+  }
+  #experienceEducation .allPoints::before {
+    width: 26px;
+    height: 26px;
+    top: -2px;
+    left: -15px;
+  }
+  #experienceEducation .allPoints::after {
+    width: 13px;
+    height: 13px;
+    top: 5px;
+    left: -8px;
+  }
+  #experienceEducation .allPoints .dateGrp span {
+    font-size: 11px;
+    padding-right: 8px;
+  }
+  #experienceEducation .allPoints h4 {
+    font-size: 16px;
+  }
+  #experienceEducation .allPoints p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 401.98px) {
+  #experienceEducation h3 {
+    font-size: 22px;
+  }
+  #experienceEducation .allPoints::before {
+    width: 24px;
+    height: 24px;
+    top: -2px;
+    left: -14px;
+  }
+  #experienceEducation .allPoints::after {
+    width: 12px;
+    height: 12px;
+    top: 4px;
+    left: -7px;
+  }
+  #experienceEducation .allPoints .dateGrp span {
+    font-size: 10px;
+    padding-right: 6px;
+  }
+  #experienceEducation .allPoints h4 {
+    font-size: 15px;
+  }
+  #experienceEducation .allPoints p {
+    font-size: 12px;
+  }
+}
+/* =================== EXPERIENCE AND EDUCATION END =================== */
+
+/* =================== SKILLS START =================== */
+@media (max-width: 991.98px) {
+  #skills {
+    padding: 68px 0 75px 0;
+  }
+  #skills h3 {
+    font-size: 36px;
+    padding-bottom: 40px;
+  }
+  #skills .progressPortion .lable {
+    font-size: 17px;
+    margin-bottom: 8px;
+  }
+  #skills .progressBar {
+    width: 380px;
+    height: 5px;
+  }
+  #skills .progressLine {
+    height: 5px;
+  }
+  #skills .progressLine span {
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: -30px;
+  }
+}
+@media (max-width: 767.98px) {
+  #skills h3 {
+    font-size: 30px;
+  }
+  #skills .progressPortion .lable {
+    font-size: 16px;
+  }
+  #skills .progressBar {
+    width: 370px;
+  }
+  #skills .progressLine span {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575.98px) {
+  #skills h3 {
+    font-size: 28px;
+  }
+  #skills .progressPortion .lable {
+    font-size: 15px;
+  }
+  #skills .progressBar {
+    width: 360px;
+    height: 4px;
+  }
+  #skills .progressLine {
+    height: 4px;
+  }
+  #skills .progressLine span {
+    font-size: 15px;
+  }
+}
+@media (max-width: 400.98px) {
+  #skills h3 {
+    font-size: 24px;
+  }
+  #skills .progressPortion .lable {
+    font-size: 14px;
+  }
+  #skills .progressBar {
+    width: 330px;
+  }
+  #skills .progressLine span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 350.98px) {
+  #skills .progressBar {
+    width: 300px;
+  }
+}
+@media (max-width: 320.98px) {
+  #skills .progressBar {
+    width: 270px;
+  }
+}
+/* =================== SKILLS END =================== */
+
+/* =================== ABOUT END =================== */
+
+/* =================== PROJECT START =================== */
+
+/* =================== PROJECT BANNER START =================== */
+@media (max-width: 1199.98px) {
+  #projectBanner h2 {
+    font-size: 42px;
+  }
+  #projectBanner p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991.98px) {
+  #projectBanner {
+    background-image: url("../../Assets/Images/ProjectBg_small.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-top: 0;
+  }
+  #projectBanner .container {
+    background-image: none;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+  #projectBanner h2 {
+    font-size: 38px;
+  }
+  #projectBanner p {
+    font-size: 14px;
+    line-height: 190%;
+  }
+}
+@media (max-width: 767.98px) {
+  #projectBanner h2 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 575.98px) {
+  #projectBanner h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479.98px) {
+  #projectBanner h2 {
+    font-size: 28px;
+  }
+  #projectBanner p {
+    font-size: 12px;
+  }
+}
+/* =================== PROJECT BANNER END =================== */
+
+/* =================== PROJECTS START =================== */
+@media (max-width: 1199.98px) {
+  #allProjects .contents h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991.98px) {
+  #allProjects {
+    padding: 26px 0 30px 0;
+  }
+  #allProjects .contents h4 {
+    font-size: 18px;
+  }
+  #allProjects .nav-item {
+    margin-right: 0;
+    margin-bottom: 26px;
+  }
+  #allProjects .caseStudy {
+    margin-right: 0;
+  }
+  #allProjects .nav-link {
+    font-size: 14px;
+    padding: 8px 26px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+  }
+  #allProjects .project {
+    margin-bottom: 39px;
+  }
+}
+/* =================== PROJECTS END =================== */
+
+/* =================== PROJECT END =================== */
+
+/* =================== BLOG START =================== */
+
+/* =================== BLOG BANNER START =================== */
+@media (max-width: 1199.98px) {
+  #blogBanner h2 {
+    font-size: 42px;
+  }
+  #blogBanner p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991.98px) {
+  #blogBanner {
+    background-image: url("../../Assets/Images/BlogBg_small.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-top: 0;
+  }
+  #blogBanner .container {
+    background-image: none;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+  #blogBanner h2 {
+    font-size: 38px;
+  }
+  #blogBanner p {
+    font-size: 14px;
+    line-height: 190%;
+  }
+}
+@media (max-width: 767.98px) {
+  #blogBanner h2 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 575.98px) {
+  #blogBanner h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479.98px) {
+  #blogBanner h2 {
+    font-size: 28px;
+  }
+  #blogBanner p {
+    font-size: 12px;
+  }
+}
+/* =================== BLOG BANNER END =================== */
+
+/* =================== HEADER BLOG START =================== */
+@media (max-width: 1199.98px) {
+  #headerBlog h4 {
+    font-size: 28px;
+    line-height: 150%;
+  }
+  #headerBlog p {
+    line-height: 180%;
+    padding: 13px 0 20px 0;
+  }
+}
+@media (max-width: 991.98px) {
+  #headerBlog {
+    padding: 36px 16px 61px 16px;
+  }
+  #headerBlog .contents {
+    padding-top: 23px;
+  }
+  #headerBlog h4 {
+    font-size: 24px;
+  }
+  #headerBlog p {
+    font-size: 17px;
+    line-height: 200%;
+    padding: 14px 0 20px 0;
+  }
+  #headerBlog .footerGrp span {
+    font-size: 17px;
+  }
+}
+@media (max-width: 767.98px) {
+  #headerBlog h4 {
+    font-size: 22px;
+  }
+  #headerBlog p {
+    font-size: 16px;
+  }
+  #headerBlog .footerGrp span {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575.98px) {
+  #headerBlog h4 {
+    font-size: 20px;
+  }
+  #headerBlog .footerGrp span {
+    font-size: 15px;
+  }
+}
+@media (max-width: 400.98px) {
+  #headerBlog h4 {
+    font-size: 18px;
+  }
+  #headerBlog p {
+    font-size: 15px;
+  }
+  #headerBlog .footerGrp span {
+    font-size: 14px;
+  }
+}
+/* =================== HEADER BLOG END =================== */
+
+/* =================== BLOGS START =================== */
+@media (max-width: 991.98px) {
+  #blogs {
+    padding: 0 16px 57px 16px;
+  }
+  #blogs .blog {
+    margin-bottom: 27px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #blogs .blogContents {
+    padding: 0 0 0 20px;
+  }
+  #blogs .blogContents .footerGrp span {
+    font-size: 15px;
+  }
+  #blogs .blogContents .footerGrp .date {
+    margin: 0 7px;
+  }
+  #blogs .blogContents h4 {
+    font-size: 18px;
+    padding: 6px 0 13px 0;
+  }
+  #blogs .blogContents .readMore {
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 190%;
+    color: #353535;
+  }
+}
+@media (max-width: 767.98px) {
+  #blogs .blogContents .footerGrp span {
+    font-size: 14px;
+  }
+  #blogs .blogContents h4 {
+    font-size: 16px;
+  }
+  #blogs .blogContents .readMore {
+    font-size: 15px;
+  }
+}
+@media (max-width: 575.98px) {
+  #blogs .blogContents .footerGrp span {
+    font-size: 12px;
+  }
+  #blogs .blogContents h4 {
+    font-size: 14px;
+  }
+  #blogs .blogContents .readMore {
+    font-size: 13px;
+  }
+}
+@media (max-width: 400.98px) {
+  #blogs .blogContents .footerGrp span {
+    font-size: 10px;
+  }
+  #blogs .blogContents h4 {
+    font-size: 13px;
+  }
+  #blogs .blogContents .readMore {
+    font-size: 12px;
+  }
+}
+/* =================== BLOGS END =================== */
+
+/* =================== BLOG END =================== */
+
+/* =================== CONTACT START =================== */
+/* =================== CONTACT BANNER START =================== */
+@media (max-width: 1199.98px) {
+  #contactBanner h2 {
+    font-size: 42px;
+  }
+  #contactBanner p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991.98px) {
+  #contactBanner {
+    background-image: url("../../Assets/Images/ContactBg_small.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-top: 0;
+  }
+  #contactBanner .container {
+    background-image: none;
+    border-radius: 0;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+  }
+  #contactBanner h2 {
+    font-size: 38px;
+  }
+  #contactBanner p {
+    font-size: 14px;
+    line-height: 190%;
+  }
+}
+@media (max-width: 767.98px) {
+  #contactBanner h2 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 575.98px) {
+  #contactBanner h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 479.98px) {
+  #contactBanner h2 {
+    font-size: 28px;
+  }
+  #contactBanner p {
+    font-size: 12px;
+  }
+}
+/* =================== CONTACT BANNER END =================== */
+
+/* =================== CONTACT AREA START =================== */
+@media (max-width: 1199.98px) {
+  #contactArea .contents {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 991.98px) {
+  #contactArea .mail {
+    margin-top: 27px;
+    margin-bottom: 27px;
+  }
+  #contactArea .contactContents .contactIcons a {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 22px;
+  }
+  #contactArea .contents {
+    padding-left: 20px;
+  }
+  #contactArea .contactContents h5 {
+    font-size: 22px;
+  }
+  #contactArea .contactContents .contents a {
+    font-size: 15px;
+  }
+  #contactArea .contactFillUp {
+    margin-top: 45px;
+  }
+  #contactArea input {
+    padding: 14px 26px;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+  #contactArea input::placeholder {
+    font-size: 15px;
+  }
+  #contactArea .phoneAndSubject {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  #contactArea textarea {
+    padding: 14px 26px;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+  #contactArea textarea::placeholder {
+    font-size: 15px;
+  }
+  #contactArea button {
+    font-size: 16px;
+    padding: 10px 34px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  #contactArea .mail {
+    margin-top: 23px;
+    margin-bottom: 23px;
+  }
+  #contactArea .contactContents .contactIcons a {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 20px;
+  }
+  #contactArea .contents {
+    padding-left: 20px;
+  }
+  #contactArea .contactContents h5 {
+    font-size: 20px;
+  }
+  #contactArea .contactContents .contents a {
+    font-size: 13px;
+  }
+  #contactArea input {
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  #contactArea input::placeholder {
+    font-size: 13px;
+  }
+  #contactArea .phoneAndSubject {
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  #contactArea textarea {
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  #contactArea textarea::placeholder {
+    font-size: 13px;
+  }
+  #contactArea button {
+    font-size: 15px;
+    padding: 10px 28px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  #contactArea .mail {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #contactArea .contactContents .contactIcons a {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+  }
+  #contactArea .contents {
+    padding-left: 18px;
+  }
+  #contactArea .contactContents h5 {
+    font-size: 18px;
+  }
+  #contactArea .contactContents .contents a {
+    font-size: 12px;
+  }
+  #contactArea input {
+    padding: 10px 19px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  #contactArea input::placeholder {
+    font-size: 12px;
+  }
+  #contactArea .phoneAndSubject {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  #contactArea textarea {
+    padding: 10px 19px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  #contactArea textarea::placeholder {
+    font-size: 12px;
+  }
+  #contactArea button {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+}
+@media (max-width: 479.98px) {
+  #contactArea .contactContents .contactIcons a {
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+  }
+  #contactArea .contactContents h5 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 190%;
+    color: #353535;
+  }
+  #contactArea .contactContents .contents a {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 190%;
+    color: #7a7a7a;
+  }
+  #contactArea input {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 11px;
+  }
+  #contactArea input::placeholder {
+    font-size: 11px;
+  }
+  #contactArea .phoneAndSubject {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #contactArea textarea {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 11px;
+  }
+  #contactArea textarea::placeholder {
+    font-size: 11px;
+  }
+  #contactArea button {
+    font-size: 13px;
+  }
+}
+/* =================== CONTACT AREA END =================== */
+/* =================== CONTACT END =================== */
+
+/* =================== FOOTER START =================== */
+@media (max-width: 1199.98px) {
+  footer img {
+    display: block;
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+  }
+  footer h3 {
+    font-size: 30px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  footer .btn {
+    font-size: 16px;
+    padding: 13px 27px;
+    border-radius: 14px;
+  }
+  footer .letsTalk .btnIcon {
+    margin-left: 9px;
+  }
+  footer .allLinks {
+    padding-top: 85px;
+  }
+  footer .allLinks p {
+    font-size: 16px;
+  }
+  footer .allLinks a {
+    font-size: 18px;
+  }
+  footer .followGrp .followMe {
+    font-size: 16px;
+  }
+  footer .followGrp a {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    margin-right: 9px;
+  }
+}
+@media (max-width: 991.98px) {
+  footer {
+    background-image: none;
+    background-color: #575757;
+    padding: 48px 17px 57px 17px;
+  }
+  footer img {
+    margin-top: 0;
+    margin-bottom: 17px;
+    width: 180px;
+    height: 35px;
+  }
+  footer h3 {
+    font-size: 26px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  footer .letsTalk {
+    text-align: left;
+  }
+  footer .btn {
+    font-size: 14px;
+    padding: 12px 23px;
+    border-radius: 12px;
+    margin-top: 31px;
+  }
+  footer .letsTalk .btnIcon {
+    margin-left: 8px;
+  }
+  footer .allLinks {
+    padding-top: 39px;
+  }
+  footer .allLinks p {
+    font-size: 14px;
+  }
+  footer .allLinks a {
+    font-size: 16px;
+  }
+  footer .followGrp {
+    justify-content: start;
+    margin-top: 32px;
+  }
+  footer .followGrp .followMe {
+    font-size: 14px;
+  }
+  footer .followGrp a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin-right: 8px;
+  }
+}
+@media (max-width: 767.98px) {
+  footer img {
+    width: 160px;
+    height: 35px;
+  }
+  footer h3 {
+    font-size: 22px;
+  }
+  footer .btn {
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  footer .letsTalk .btnIcon {
+    margin-left: 7px;
+  }
+  footer .allLinks p {
+    font-size: 13px;
+  }
+  footer .allLinks a {
+    font-size: 14px;
+  }
+  footer .followGrp a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+    margin-right: 7px;
+  }
+}
+@media (max-width: 575.98px) {
+  footer img {
+    width: 130px;
+    height: 35px;
+  }
+  footer h3 {
+    font-size: 20px;
+  }
+  footer .btn {
+    padding: 9px 18px;
+  }
+  footer .followGrp a {
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 479.98px) {
+  footer img {
+    width: 114px;
+    height: 35px;
+  }
+  footer h3 {
+    font-size: 18px;
+  }
+  footer p {
+    font-size: 13px;
+  }
+  footer .btn {
+    font-size: 10px;
+    padding: 8px 17px;
+  }
+  footer .letsTalk .btnIcon {
+    margin-left: 6px;
+  }
+  footer .allLinks p {
+    font-size: 12px;
+  }
+  footer .allLinks a {
+    font-size: 13px;
+  }
+  footer .followGrp .followMe {
+    margin-right: 17px;
+  }
+  footer .followGrp a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    margin-right: 6px;
+  }
+}
+
+/* =================== FOOTER END =================== */

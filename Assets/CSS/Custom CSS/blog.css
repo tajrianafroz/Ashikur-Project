@@ -1,0 +1,318 @@
+/* =================== COMMON CSS START =================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  scroll-behavior: smooth;
+}
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "PT Sans", sans-serif;
+  --third-family: "Potta One", sans-serif;
+  --font3: "Baloo Da 2", sans-serif;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+/* =================== COMMON CSS END =================== */
+
+/* =================== NAV START =================== */
+nav {
+  padding: 20px 0 !important;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+nav .nav-item {
+  padding-left: 30px;
+}
+.navbar-nav li .navLine {
+  position: relative;
+  color: #353535;
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 200%;
+}
+.navbar-nav li .navLine::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #222222;
+  border-radius: 5px;
+  transform: scaleX(0);
+  left: 0;
+  bottom: 0;
+  transition: all 0.4s ease;
+}
+.navbar-nav li .navLine:hover::before {
+  transform: scaleX(1);
+}
+.navbar .navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
+/* =================== NAV END =================== */
+
+/* =================== OFF-CANVAS START =================== */
+.offcanvas-body ul {
+  margin-top: 30px;
+}
+.offcanvas-body li a {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  padding: 14px;
+  color: #353535;
+}
+.offcanvas-body li a:hover {
+  color: #ffcc00;
+}
+.offcanvas-body li span {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* =================== OFF-CANVAS END =================== */
+
+/* =================== BLOG BANNER START =================== */
+#blogBanner .container {
+  background-image: url("../../Images/Blog_Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  margin-top: 30px;
+}
+#blogBanner h2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 46px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+#blogBanner p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #fff;
+}
+/* =================== BLOG BANNER END =================== */
+
+/* =================== HEADER BLOG START =================== */
+#headerBlog {
+  padding: 71px 0 109px 0;
+}
+#headerBlog .row {
+  align-items: center;
+}
+#headerBlog h4 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 164%;
+  color: #353535;
+}
+#headerBlog p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #7a7a7a;
+  padding: 13px 0 35px 0;
+}
+#headerBlog .footerGrp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#headerBlog .footerGrp span {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 190%;
+  color: #7a7a7a;
+}
+#headerBlog .footerGrp .date {
+  margin: 0 13px;
+}
+#headerBlog .footerGrp .name {
+  font-weight: 500;
+  color: #353535;
+}
+/* =================== HEADER BLOG END =================== */
+
+/* =================== BLOGS START =================== */
+#blogs {
+  padding-bottom: 42px;
+}
+#blogs .blog {
+  margin-bottom: 95px;
+}
+#blogs .blogContents {
+  padding: 35px 30px 0 5px;
+}
+#blogs .blogContents h4 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 190%;
+  color: #353535;
+}
+#blogs .blogContents p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: #7a7a7a;
+  padding: 9px 0 18px 0;
+}
+#blogs .blogContents .footerGrp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#blogs .blogContents .footerGrp span {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  color: #7a7a7a;
+}
+#blogs .blogContents .footerGrp .date {
+  margin: 0 13px;
+}
+#blogs .blogContents .footerGrp .name {
+  font-weight: 500;
+  color: #353535;
+}
+/* =================== BLOGS END =================== */
+
+/* =================== FOOTER START =================== */
+footer {
+  background-image: url("../../Images/Footer_Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 71px 0 85px 0;
+}
+footer img {
+  margin-top: 20px;
+}
+footer h3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 200%;
+  color: #fff;
+}
+footer p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: justify;
+  color: #bbb9b9;
+}
+footer .letsTalk {
+  text-align: right;
+}
+footer .btn {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  color: #fff;
+  background-color: #ffcc00;
+  padding: 15px 32px;
+  border-radius: 16px;
+  margin-top: 44px;
+  border: 1px solid #ffcc00;
+}
+footer .btn:hover {
+  color: #353535;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+footer .letsTalk .btnIcon {
+  margin-left: 11px;
+}
+footer .allLinks {
+  padding-top: 94px;
+}
+footer .allLinks p {
+  font-size: 18px;
+}
+footer .allLinks a {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  text-align: justify;
+  color: #fff;
+}
+footer .allLinks a:hover {
+  color: #ffcc00;
+}
+footer .followGrp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+footer .followGrp .followMe {
+  display: inline-block;
+  margin-right: 24px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: justify;
+  color: #fff;
+}
+footer .followGrp a {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #484848;
+  font-size: 18px;
+  margin-right: 10px;
+}
+footer .followGrp a:hover {
+  color: #484848;
+  background-color: #fff;
+}
+footer .followGrp a:last-child {
+  margin-right: 0;
+}
+/* =================== FOOTER END =================== */

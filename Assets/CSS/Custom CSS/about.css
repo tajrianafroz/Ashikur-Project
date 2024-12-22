@@ -1,0 +1,429 @@
+/* =================== COMMON CSS START =================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  scroll-behavior: smooth;
+}
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "PT Sans", sans-serif;
+  --third-family: "Potta One", sans-serif;
+  --font3: "Baloo Da 2", sans-serif;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+/* =================== COMMON CSS END =================== */
+
+/* =================== NAV START =================== */
+nav {
+  padding: 20px 0 !important;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+nav .nav-item {
+  padding-left: 30px;
+}
+.navbar-nav li .navLine {
+  position: relative;
+  color: #353535;
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 200%;
+}
+.navbar-nav li .navLine::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #222222;
+  border-radius: 5px;
+  transform: scaleX(0);
+  left: 0;
+  bottom: 0;
+  transition: all 0.4s ease;
+}
+.navbar-nav li .navLine:hover::before {
+  transform: scaleX(1);
+}
+.navbar .navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
+/* =================== NAV END =================== */
+
+/* =================== OFF-CANVAS START =================== */
+.offcanvas-body ul {
+  margin-top: 30px;
+}
+.offcanvas-body li a {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  padding: 14px;
+  color: #353535;
+}
+.offcanvas-body li a:hover {
+  color: #ffcc00;
+}
+.offcanvas-body li span {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* =================== OFF-CANVAS END =================== */
+
+/* =================== ABOUT BANNER START =================== */
+#aboutBanner .container {
+  background-image: url("../../Images/Project_Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  margin-top: 30px;
+}
+#aboutBanner h2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 46px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+#aboutBanner p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: #fff;
+}
+/* =================== ABOUT BANNER END =================== */
+
+/* =================== BIO-DATA START =================== */
+#bioData {
+  padding: 86px 0 73px 0;
+}
+#bioData .container {
+  padding-bottom: 78px;
+  border-bottom: 0.7px solid #7a7a7a;
+}
+#bioData .contents p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 200%;
+  text-align: justify;
+  color: #7a7a7a;
+  padding-bottom: 105px;
+}
+#bioData .contents .row {
+  padding-bottom: 12px;
+}
+#bioData .contents .row p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 190%;
+  color: #7a7a7a;
+  padding-bottom: 12px;
+}
+#bioData .contents .row p span {
+  font-weight: 500;
+  color: #353535;
+  margin-left: 8px;
+}
+#bioData .contents .row p a {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #3479ff;
+  margin-left: 8px;
+}
+#bioData .contents .cv_btn {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  color: #fff;
+  background-color: #ffcc00;
+  padding: 10px 21px;
+  margin-top: 44px;
+  border-radius: 12px;
+}
+#bioData .contents .cloudArrow {
+  margin-left: 11px;
+}
+/* =================== BIO-DATA END =================== */
+
+/* =================== EXPERIENCE AND EDUCATION START =================== */
+#experienceEducation h3 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 40px;
+  color: #353535;
+  text-align: left;
+  padding-bottom: 49px;
+}
+#experienceEducation .allPoints {
+  padding: 0 47px 47px 47px;
+  border-left: 2px dashed #7a7a7a;
+  position: relative;
+}
+#experienceEducation .allPoints:last-child {
+  padding-bottom: 0;
+}
+#experienceEducation .allPoints::before {
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  border: 2px dashed #7a7a7a;
+  border-radius: 50%;
+  top: -4px;
+  left: -19px;
+  background-color: #fff;
+}
+#experienceEducation .allPoints::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-radius: 50%;
+  top: 5px;
+  left: -10px;
+  background-color: #52ab70;
+}
+#experienceEducation .allPoints.red::after {
+  background-color: #f17676;
+}
+#experienceEducation .allPoints.yellow::after {
+  background-color: #ffd233;
+}
+#experienceEducation .allPoints .dateGrp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#experienceEducation .allPoints .dateGrp span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  color: #7a7a7a;
+  padding-right: 13px;
+}
+#experienceEducation .allPoints h4 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 180%;
+  color: #353535;
+  padding: 10px 0 16px 0;
+}
+#experienceEducation .allPoints p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  color: #7a7a7a;
+}
+/* =================== EXPERIENCE AND EDUCATION END =================== */
+
+/* =================== SKILLS START =================== */
+#skills {
+  padding: 118px 0;
+}
+#skills h3 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 40px;
+  color: #353535;
+  text-align: left;
+  padding-bottom: 49px;
+}
+#skills .progressPortion {
+  margin-bottom: 50px;
+}
+#skills .lastOne {
+  margin-bottom: 0;
+}
+#skills .progressPortion .lable {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  color: #353535;
+  margin-bottom: 11px;
+}
+#skills .progressBar {
+  border-radius: 50px;
+  width: 380px;
+  height: 6px;
+  background: #d9d9d9;
+}
+#skills .progressLine {
+  border-radius: 50px;
+  height: 6px;
+  background: #f16500;
+  text-align: right;
+  position: relative;
+}
+#skills .progressLine.xd {
+  background: #700d60;
+}
+#skills .progressLine.illustrator {
+  background: #efc003;
+}
+#skills .progressLine.photoshop {
+  background: #03249b;
+}
+#skills .progressLine span {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: right;
+  color: #f16500;
+  position: absolute;
+  right: 0;
+  margin-top: -40px;
+}
+#skills span.xd {
+  color: #700d60;
+}
+#skills span.illustrator {
+  color: #efc003;
+}
+#skills span.photoshop {
+  color: #03249b;
+}
+/* =================== SKILLS END =================== */
+
+/* =================== FOOTER START =================== */
+footer {
+  background-image: url("../../Images/Footer_Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 71px 0 85px 0;
+}
+footer img {
+  margin-top: 20px;
+}
+footer h3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 200%;
+  color: #fff;
+}
+footer p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: justify;
+  color: #bbb9b9;
+}
+footer .letsTalk {
+  text-align: right;
+}
+footer .btn {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 180%;
+  color: #fff;
+  background-color: #ffcc00;
+  padding: 15px 32px;
+  border-radius: 16px;
+  margin-top: 44px;
+  border: 1px solid #ffcc00;
+}
+footer .btn:hover {
+  color: #353535;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+footer .letsTalk .btnIcon {
+  margin-left: 11px;
+}
+footer .allLinks {
+  padding-top: 94px;
+}
+footer .allLinks p {
+  font-size: 18px;
+}
+footer .allLinks a {
+  display: inline-block;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  text-align: justify;
+  color: #fff;
+}
+footer .allLinks a:hover {
+  color: #ffcc00;
+}
+footer .followGrp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+footer .followGrp .followMe {
+  display: inline-block;
+  margin-right: 24px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: justify;
+  color: #fff;
+}
+footer .followGrp a {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #484848;
+  font-size: 18px;
+  margin-right: 10px;
+}
+footer .followGrp a:hover {
+  color: #484848;
+  background-color: #fff;
+}
+footer .followGrp a:last-child {
+  margin-right: 0;
+}
+/* =================== FOOTER END =================== */
